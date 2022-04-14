@@ -50,14 +50,14 @@ const HomeScreen = ({ navigation }) => {
                     <Text style={styles.trackText}>track my application</Text>
                 </View>
 
-                <MoreDetail imgPath={require('../../src/assets/images/group.png')} widthValue={0.22} />
-                <MoreDetail imgPath={require('../../src/assets/images/group2.png')} widthValue={0.12} />
-                <MoreDetail imgPath={require('../../src/assets/images/group3.png')} widthValue={0.19} />
-                <MoreDetail imgPath={require('../../src/assets/images/group4.png')} widthValue={0.185} />
-                <MoreDetail imgPath={require('../../src/assets/images/group5.png')} widthValue={0.2} />
-                <MoreDetail imgPath={require('../../src/assets/images/group6.png')} widthValue={0.18} />
-                <MoreDetail imgPath={require('../../src/assets/images/group7.png')} widthValue={0.08} />
-                <MoreDetail imgPath={require('../../src/assets/images/group8.png')} widthValue={0.1} />
+                <MoreDetail imgPath={require('../../src/assets/images/group.png')} widthValue={118} heightValue={122} />
+                <MoreDetail imgPath={require('../../src/assets/images/group2.png')} widthValue={66} heightValue={108} />
+                <MoreDetail imgPath={require('../../src/assets/images/group3.png')} widthValue={104} heightValue={106} />
+                <MoreDetail imgPath={require('../../src/assets/images/group4.png')} widthValue={100} heightValue={102}  />
+                <MoreDetail imgPath={require('../../src/assets/images/group5.png')} widthValue={110} heightValue={104}} />
+                <MoreDetail imgPath={require('../../src/assets/images/group6.png')} widthValue={100} heightValue={85} />
+                <MoreDetail imgPath={require('../../src/assets/images/group7.png')} widthValue={48} heightValue={92} />
+                <MoreDetail imgPath={require('../../src/assets/images/group8.png')} widthValue={57} heightValue={104} />
 
                 <View style={[styles.block]}>
                     <Image style={styles.socialBox} source={require('../../src/assets/images/fb.png')} />
