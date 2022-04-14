@@ -12,11 +12,13 @@ const MoreDetail = (props) => {
 
     return (
         <View style={styles.aboutContainer}>
+        <View>
             <Image
                 resizeMode='cover'
                 source={props.imgPath}
-                style={{ width: windowWidth * props.widthValue }}
+                style={{ width: props.widthValue, height: props.heightValue, }}
             />
+        </View>
 
             <Text style={styles.heading}>lorem ipsum is used</Text>
             <Text style={styles.detailText}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque fugit maxime et. Unde repellat hic voluptas commodi laudantium deleniti excepturi voluptatem rem? Illo, sequi. Hic, tempora neque.</Text>
